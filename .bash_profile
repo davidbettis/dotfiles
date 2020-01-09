@@ -4,6 +4,6 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # "Local" customizations that might vary on a per-machine basis
-if [ -f /etc/bashrc ]; then
+if [ -f ~/.bashrc.local ]; then
        . ~/.bashrc.local
 fi
